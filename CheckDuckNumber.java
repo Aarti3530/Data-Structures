@@ -15,3 +15,25 @@ class Solution{
      return false;
    }
 }
+
+
+//another way
+
+class Solution{
+    static boolean check_duck(String N){
+        char ch = N.charAt(0);
+        
+        if(ch == '0')
+        return false;
+        
+        N = N.substring(1);
+        
+        //System.out.println(N);
+        
+        if(N.contains("0"))
+        return true;
+        
+        else
+        return false;
+   }
+}

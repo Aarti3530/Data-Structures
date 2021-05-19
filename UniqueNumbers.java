@@ -1,4 +1,4 @@
-/Initial Template for Java
+// https://practice.geeksforgeeks.org/problems/unique-numbers3019/1/?category[]=Hash&category[]=Hash&difficulty[]=-2&difficulty[]=-1&page=1&query=category[]Hashdifficulty[]-2difficulty[]-1page1category[]Hash
 import java.io.*;
 import java.util.*;
 

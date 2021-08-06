@@ -21,3 +21,23 @@ class Solution {
         return t;
     }
 }
+// using recursiong
+
+import java.util.Scanner;
+public class Main
+{
+  public static String reverse (String s)
+  {
+    if (s.length () == 1)
+      return "" + s.charAt (s.length () - 1);
+    else return "" + s.charAt (s.length () - 1) +
+	reverse (s.substring (0, s.length ()-1));
+  }
+  public static void main (String[]args)
+  {
+    Scanner sc = new Scanner (System.in);
+    String s = sc.next ();
+    String res = reverse (s);
+    System.out.println(res);
+  }
+}
